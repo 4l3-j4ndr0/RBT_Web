@@ -1,0 +1,269 @@
+{
+  "behaviors": [
+    {
+      "name": "Elopement",
+      "category": "Desafiantes",
+      "function": "escape"
+    },
+    {
+      "name": "Aggression - hitting",
+      "category": "Desafiantes",
+      "function": "attention"
+    },
+    {
+      "name": "Aggression - kicking",
+      "category": "Desafiantes",
+      "function": "escape"
+    },
+    {
+      "name": "Aggression - biting",
+      "category": "Desafiantes",
+      "function": "attention"
+    },
+    {
+      "name": "Aggression - pushing",
+      "category": "Desafiantes",
+      "function": "tangible"
+    },
+    {
+      "name": "Self-Injurious Behavior (SIB) - head banging",
+      "category": "Desafiantes",
+      "function": "automatic"
+    },
+    {
+      "name": "Self-Injurious Behavior (SIB) - scratching self",
+      "category": "Desafiantes",
+      "function": "automatic"
+    },
+    {
+      "name": "Tantrums",
+      "category": "Desafiantes",
+      "function": "attention"
+    },
+    {
+      "name": "Spitting",
+      "category": "Desafiantes",
+      "function": "attention"
+    },
+    {
+      "name": "Throwing objects",
+      "category": "Desafiantes",
+      "function": "escape"
+    },
+    {
+      "name": "Flopping",
+      "category": "Desafiantes",
+      "function": "escape"
+    },
+    {
+      "name": "Screaming/Yelling",
+      "category": "Desafiantes",
+      "function": "attention"
+    },
+    {
+      "name": "Bolting",
+      "category": "Desafiantes",
+      "function": "escape"
+    },
+    {
+      "name": "Pica",
+      "category": "Desafiantes",
+      "function": "automatic"
+    },
+    {
+      "name": "Disrobing",
+      "category": "Desafiantes",
+      "function": "attention"
+    },
+    {
+      "name": "Public Masturbation",
+      "category": "Desafiantes",
+      "function": "automatic"
+    },
+    {
+      "name": "Inappropriate urination/defecation",
+      "category": "Desafiantes",
+      "function": "escape"
+    },
+    {
+      "name": "Hair pulling",
+      "category": "Desafiantes",
+      "function": "attention"
+    },
+    {
+      "name": "Property destruction",
+      "category": "Desafiantes",
+      "function": "escape"
+    },
+    {
+      "name": "No functional manding",
+      "category": "Comunicaci\u00f3n",
+      "function": "escape"
+    },
+    {
+      "name": "Echolalia",
+      "category": "Comunicaci\u00f3n",
+      "function": "automatic"
+    },
+    {
+      "name": "Scripted speech",
+      "category": "Comunicaci\u00f3n",
+      "function": "automatic"
+    },
+    {
+      "name": "Lack of initiation",
+      "category": "Comunicaci\u00f3n",
+      "function": "attention"
+    },
+    {
+      "name": "Perseverative speech",
+      "category": "Comunicaci\u00f3n",
+      "function": "automatic"
+    },
+    {
+      "name": "No intraverbal response",
+      "category": "Comunicaci\u00f3n",
+      "function": "escape"
+    },
+    {
+      "name": "No tacting",
+      "category": "Comunicaci\u00f3n",
+      "function": "escape"
+    },
+    {
+      "name": "Avoids eye contact",
+      "category": "Social",
+      "function": "escape"
+    },
+    {
+      "name": "No reciprocal play",
+      "category": "Social",
+      "function": "escape"
+    },
+    {
+      "name": "No peer interaction",
+      "category": "Social",
+      "function": "escape"
+    },
+    {
+      "name": "Invades personal space",
+      "category": "Social",
+      "function": "attention"
+    },
+    {
+      "name": "Doesn\u2019t greet/farewell",
+      "category": "Social",
+      "function": "escape"
+    },
+    {
+      "name": "No imitation",
+      "category": "Social",
+      "function": "escape"
+    },
+    {
+      "name": "Motor stereotypy",
+      "category": "Estereotipias",
+      "function": "automatic"
+    },
+    {
+      "name": "Vocal stereotypy",
+      "category": "Estereotipias",
+      "function": "automatic"
+    },
+    {
+      "name": "Object stereotypy",
+      "category": "Estereotipias",
+      "function": "automatic"
+    },
+    {
+      "name": "Sensory seeking",
+      "category": "Estereotipias",
+      "function": "automatic"
+    },
+    {
+      "name": "Toileting difficulties",
+      "category": "Vida Diaria",
+      "function": "escape"
+    },
+    {
+      "name": "Feeding issues",
+      "category": "Vida Diaria",
+      "function": "escape"
+    },
+    {
+      "name": "Poor hygiene routines",
+      "category": "Vida Diaria",
+      "function": "escape"
+    },
+    {
+      "name": "Dressing difficulties",
+      "category": "Vida Diaria",
+      "function": "escape"
+    },
+    {
+      "name": "Transition resistance",
+      "category": "Vida Diaria",
+      "function": "escape"
+    },
+    {
+      "name": "No household task participation",
+      "category": "Vida Diaria",
+      "function": "escape"
+    },
+    {
+      "name": "Poor planning",
+      "category": "Ejecutivo/Cognitivo",
+      "function": "escape"
+    },
+    {
+      "name": "Forgetfulness in routine tasks",
+      "category": "Ejecutivo/Cognitivo",
+      "function": "escape"
+    },
+    {
+      "name": "Inability to follow multi-step instructions",
+      "category": "Ejecutivo/Cognitivo",
+      "function": "escape"
+    },
+    {
+      "name": "Matching",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    },
+    {
+      "name": "Sorting",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    },
+    {
+      "name": "Listener Responding",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    },
+    {
+      "name": "Tacting",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    },
+    {
+      "name": "Visual Discrimination",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    },
+    {
+      "name": "Receptive ID",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    },
+    {
+      "name": "Imitation",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    },
+    {
+      "name": "Mand Training",
+      "category": "Programas ABA",
+      "function": "acquisition"
+    }
+  ]
+}
