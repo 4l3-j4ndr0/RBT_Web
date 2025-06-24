@@ -9,10 +9,15 @@ import {
   CartesianGrid,
 } from "recharts";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
+
 
 export default function PacienteCard({ paciente, onEliminar }) {
   const [notaIA, setNotaIA] = useState("");
   const [generando, setGenerando] = useState(false);
+  const navigate = useNavigate();
+
+  
 
   const generarNotaConIA = async () => {
     const prompt = `Actúa como un RBT experimentado. Se han registrado estas ocurrencias de conducta en la semana del paciente ${paciente.identificador}: ${paciente.data.map(d => `${d.day}: ${d.value}`).join(", ")}. Redacta una nota clínica clara, profesional y coherente sobre el progreso observado.`;
@@ -46,17 +51,25 @@ export default function PacienteCard({ paciente, onEliminar }) {
   };
 
   return (
-    <div className="bg-white shadow rounded p-4 mb-6 border border-gray-200">
+    <div
+  className="bg-white shadow rounded p-4 mb-6 border border-gray-200 cursor-pointer hover:shadow-lg transition"
+  onClick={() => navigate(`/paciente/${paciente._id}`)}
+>
+
       <div className="flex justify-between items-center mb-2">
         <h2 className="text-lg font-semibold text-blue-900">
           🧑 Paciente: {paciente.identificador}
         </h2>
         <button
-          onClick={() => onEliminar(paciente._id)}
-          className="text-red-600 hover:text-red-800 font-bold text-sm"
-        >
-          ❌ Eliminar
-        </button>
+  onClick={(e) => {
+    e.stopPropagation(); // ❌ evita que se dispare el click del div padre
+    onEliminar(paciente._id);
+  }}
+  className="text-red-600 hover:text-red-800 font-bold text-sm"
+>
+  ❌ Eliminar
+</button>
+
       </div>
 
       <div className="mb-4">
